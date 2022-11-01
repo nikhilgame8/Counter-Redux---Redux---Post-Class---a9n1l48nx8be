@@ -8,7 +8,7 @@ function App() {
 
   return (
     <div id='main'>
-      <h1 data-testid='counter'>{count}</h1>
+      <div data-testid='counter'>{count}</div>
       <button id='decrement' onClick={()=>dispatch(incNumber())}>+</button>
       <button id='increment' onClick={()=>dispatch(decNumber())}>-</button>
     </div>
